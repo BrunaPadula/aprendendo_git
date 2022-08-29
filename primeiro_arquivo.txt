@@ -1,0 +1,22 @@
+Resumo de Estudo sobre o Git
+
+O Git é um sistema onde é possível controlar versões, permite que os desenvolvedores tenham acesso a uma infinidade de códigos, permite que eles trabalhem de forma simultânea.
+Mantém um histórico de todas as versões.
+O git possui três estados:
+-> Committed: onde os dados estão armazenados de forma segura em seu banco de dados local;
+-> Modificado: o arquivo foi alterado, mas ainda não fez o commit no seu banco de dados;
+-> Preparado: a versão atual de um arquivo modificado foi marcado para fazer parte do seu próximo commit.
+
+Comando do Git
+Basicamente o primeiro passo em relação ao comando do Git é criar uma nova pasta, abra-a e execute o comando
+git init
+o git add . (onde todos os arquivos modificados são adicionados no commit).
+Seguindo a sequencia de comandos temos o git commit m- "mensagem commit" (Agora o arquivo é enviado, mas ainda não para o repositório remoto.);
+-> git push quando o trabalho estiver pronto e quiser enviar os arquivos modificados ao remoto do projeto
+-> git push origin master (estas alterações são enviadas ao seu repositório remoto específico). Altere master para qualquer ramo (branch) desejado, enviando suas alterações para ele.
+-> para clonar um repositório existente: git clone urb
+-> observar mudanças feitas em arquivos monitorados modificados: git diff
+-> Histórico dos Commits efetuados em determinado repositório: git log
+-> Ignorando arquivos: touch gitignore
+-> Criando Tags: git tag
+ 
